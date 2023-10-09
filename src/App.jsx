@@ -14,7 +14,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    searchMovies("batman");
+    searchMovies("bat man");
   }, []);
 
   const [searchTerm, setSearchTerm] = useState("");
